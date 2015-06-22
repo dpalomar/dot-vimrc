@@ -14,7 +14,7 @@ syntax on
 "--------
 " color scheme
 set background=dark
-color solarized
+"color solarized
 
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn
@@ -148,6 +148,7 @@ let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$']
 " let NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$',  '\~$']
 let NERDTreeShowBookmarks=1
 let NERDTreeWinPos = "right"
+let NERDTreeDirArrows = 0
 
 " nerdcommenter
 let NERDSpaceDelims=1
