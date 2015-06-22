@@ -110,7 +110,25 @@ hi Tb_VisibleNormal ctermbg=69 ctermfg=white
 hi Tb_VisibleChanged guifg=green ctermbg=252 ctermfg=white
 
 " easy-motion
-let g:EasyMotion_leader_key = '<Leader>'
+let mapleader = ','               
+let g:EasyMotion_leader_key = 'f' 
+"let g:EasyMotion_do_mapping = 0 " Disable default mappings
+ 
+" Bi-directional find motion      
+" Jump to anywhere you want with minimal keystrokes, with just one key binding.
+" `s{char}{label}`                
+"nmap s <Plug>(easymotion-s)      
+" or                              
+" `s{char}{char}{label}`          
+" Need one more keystroke, but on average, it may be more comfortable.
+"nmap s <Plug>(easymotion-s2)     
+ 
+" Turn on case insensitive feature
+let g:EasyMotion_smartcase = 1    
+ 
+" JK motions: Line motions        
+"map <Leader>j <Plug>(easymotion-j)
+"map <Leader>k <Plug>(easymotion-k)
 
 " Tagbar
 let g:tagbar_left=1
