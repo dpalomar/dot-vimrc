@@ -105,7 +105,8 @@ let g:Tb_TabWrap = 1
 
 hi Tb_Normal guifg=white ctermfg=white
 hi Tb_Changed guifg=green ctermfg=green
-hi Tb_VisibleNormal ctermbg=252 ctermfg=235
+"hi Tb_VisibleNormal ctermbg=252 ctermfg=235
+hi Tb_VisibleNormal ctermbg=69 ctermfg=white
 hi Tb_VisibleChanged guifg=green ctermbg=252 ctermfg=white
 
 " easy-motion
