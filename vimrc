@@ -15,8 +15,8 @@ syntax on
 " color scheme
 set background=dark
 "color solarized
-hi Pmenu      guifg=#f6f3e8 guibg=#444444 ctermfg=230 ctermbg=238 cterm=none
-hi PmenuSel   guifg=#000000 guibg=#cae682 ctermfg=16 ctermbg=150 cterm=none 
+hi Pmenu      guifg=#f6f3e8 guibg=#444444 ctermfg=white ctermbg=93 cterm=none
+hi PmenuSel   guifg=#000000 guibg=#cae682 ctermfg=white ctermbg=black cterm=none 
 
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn
