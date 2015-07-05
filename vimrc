@@ -12,8 +12,19 @@ syntax on
 "--------
 " Vim UI
 "--------
+
+" tabbar
+let g:Tb_MaxSize = 2
+let g:Tb_TabWrap = 1
+
+hi Tb_Normal guifg=white ctermfg=white
+hi Tb_Changed guifg=green ctermfg=green
+hi Tb_VisibleNormal ctermbg=69 ctermfg=white
+hi Tb_VisibleChanged guifg=green ctermbg=252 ctermfg=white
+
 " color scheme
 set background=dark
+colorscheme molokai_kenan
 "color solarized
 hi Pmenu      guifg=#f6f3e8 guibg=#444444 ctermfg=white ctermbg=93 cterm=none
 hi PmenuSel   guifg=#000000 guibg=#cae682 ctermfg=white ctermbg=black cterm=none 
@@ -99,18 +110,9 @@ let g:rbpt_colorpairs = [
 let g:rbpt_max = 16
 autocmd Syntax lisp,scheme,clojure,racket RainbowParenthesesToggle
 
-" tabbar
-let g:Tb_MaxSize = 2
-let g:Tb_TabWrap = 1
 
-hi Tb_Normal guifg=white ctermfg=white
-hi Tb_Changed guifg=green ctermfg=green
-"hi Tb_VisibleNormal ctermbg=252 ctermfg=235
-hi Tb_VisibleNormal ctermbg=69 ctermfg=white
-hi Tb_VisibleChanged guifg=green ctermbg=252 ctermfg=white
 
 " easy-motion
-let mapleader = ','               
 let g:EasyMotion_leader_key = 'f' 
 "let g:EasyMotion_do_mapping = 0 " Disable default mappings
  
