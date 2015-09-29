@@ -1,4 +1,4 @@
-Maple's Vim config
+Maple's Vim config (modiflied by iwannaflytomoon)
 ==================
 
 I use `vundle` to manage my plugins, which makes my `.vim` directory clean and tidy. If you are new to vim, the following two posts
@@ -19,12 +19,6 @@ Such as completions for variable names and function names(neocomplcache), expand
 * [ZenCoding](http://github.com/mattn/zencoding-vim) - High speed HTML and CSS coding.
 * [delimitMate](http://github.com/Raimondi/delimitMate) - Provides auto-balancing and some expansions for parens, quotes, etc.
 
-### Shortcuts
-
-* `Tab` -> Rotate across the completion list
-* `Tab` -> Expand snippets or jump to the next placeholder of snippet
-* `Ctrl` + `j` -> Call zen-coding expansion on html tags
-
 ### Dependencies
 
 Compile Vim with `--enable-pythoninterp` and `--enable-rubyinterp` to enable powerful syntax completion supplied by neocomplcache.
@@ -34,7 +28,6 @@ brew install macvim --override-system-vim  # OS X
 yaourt -S gvim                             # ArchLinux
 sudo apt-get install vim-gtk               # Ubuntu
 ```
-
 ### Tutorial
 
 ``` vim
@@ -60,12 +53,6 @@ sudo apt-get install vim-gtk               # Ubuntu
 :help easymotion
 ```
 
-### Shortcuts
-
-* `%` -> Jump between brackets and html/xml tags
-* `<leader>` + `w` -> Beginning of the word.
-* `<leader>` + `f` + `{char}` -> Find {char} to the right.
-
 #### Doing fixes should be as fast as possible!
 ## Fast editing
 
@@ -82,24 +69,15 @@ sudo apt-get install vim-gtk               # Ubuntu
 :help surround
 :help tabular
 ```
-
-### Shortcuts
-
-* `%` -> Jump between brackets and html/xml tags
-* `<leader>` + `c` + `<space>` -> Toggle comment
-* `F3` -> Toggle Gundo viewer
-* `F4` -> Toggle Indent Guides
-
 ## IDE features
 
 * [nerdtree](http://github.com/scrooloose/nerdtree) - A tree explorer plugin for navigating the filesystem.
 * [tabbar](http://github.com/humiaozuzu/TabBar) -  Add tab bar and quickt tab switch with alt+1~9.
 * [tagbar](http://github.com/majutsushi/tagbar) - Displays the tags of the current file in a sidebar.
-* [ack-vim](http://github.com/mileszs/ack.vim) - Front for the Perl module App::Ack.
 * [ctrlp](https://github.com/kien/ctrlp.vim) - Fuzzy file, buffer, mru and tag finder.
 * [powerline](https://github.com/Lokaltog/vim-powerline) - The ultimate vim statusline utility.
 * [fugitive](https://github.com/tpope/vim-fugitive/) - a Git wrapper so awesome, it should be illegal.
-* [syntastic](https://github.com/scrooloose/syntastic) - Syntax checking hacks for vim.
+* [syntastic](https://github.com/scrooloose/syntastic) - Syntax checking hacks for vim. i forbid it 
 
 ### Dependencie
 
@@ -108,44 +86,6 @@ yaourt -S ack ctags                  # ArchLinux
 sudo apt-get install ack-grep ctags  # Ubuntu
 brew install ack ctags               # OS X
 ```
-
-For syntax check tools:
-
-Languages    | Lint Tools    | Install guide
------------- | ------------- | ------------
-C            | gcc           | built-in
-CPP          | g++           | built-in
-CoffeeScript | coffee        | `npm install -g coffeelint`
-CSS          | csslint       | `npm install -g csslint`
-Erlang       | escript       | built-in
-Go           | go            | built-in
-Haml         | haml          | built-in
-Haskell      | ghc-mod       | `cabal install ghc-mod`
-HTML         | tidy          | built-in
-Java         | javac         | built-in
-Javascript   | jshint        | `npm install -g jshint`
-Json         | jsonlint      | `npm install -g jsonlint`
-Less         | lessc         | built-in
-Lisp         | clisp         | built-in
-Lua          | luac          | built-in
-Perl         | perl          | built-in
-PHP          | php           | built-in
-Puppet       | puppet        | built-in
-Python       | pyflakes      | `sudo pip install pyflakes`
-Ruby         | ruby          | built-in
-Scala        | scala         | built-in
-Sass         | sass          | built-in
-Scss         | scss/compass  | `gem install compass`
-XML          | xmllint       | built-in
-YAML         | js-yaml       | `npm install -g js-yaml`
-
-### Shortcuts
-* `F5` -> Toggle Nerd-Tree file viewer
-* `F6` -> Toggle tagbar
-* `Ctrl` + `p` -> Toggle ctrlp
-* `Alt` + `1~9` -> Switch between multiple buffers
-* `Ctrl` + `h/j/k/l` -> Moving between spilt windows
-* `:Ack` or `<leader>` + `a` -> Toggle Ack searching
 
 ### Screenshots
 
@@ -156,10 +96,6 @@ YAML         | js-yaml       | `npm install -g js-yaml`
 
 * [fcitx-status](https://github.com/humiaozuzu/fcitx-status) - automatic change status of fcitx in vim.
 * [togglemouse](https://github.com/nvie/vim-togglemouse/) - Toggles the mouse focus between Vim and your terminal emulator, allowing terminal emulator mouse commands, like copy/paste.
-
-### Shortcuts
-
-* `F12` -> Toggle Mouse
 
 ## Better syntax/indent for language enhancement
 
@@ -185,7 +121,6 @@ YAML         | js-yaml       | `npm install -g js-yaml`
    - racket
    - clojure
    - scale
-  
 
 ## Themes
 
@@ -247,8 +182,25 @@ All plugins are listed in file `bundles.vim` with detailed comments, just add pl
 
 Other configurations are also well organized in vimrc.
 
-## Known issues
+### Shortcuts
+* `Tab` -> Rotate across the completion list
+* `Tab` -> Expand snippets or jump to the next placeholder of snippet
+* `Ctrl` + `j` -> Call zen-coding expansion on html tags
 
-* Compeletions are not well supported for statically typed languages(c/c++)
-* Snippets are not shown in completions popups
-* May has some conflicts with GVIM
+* `%` -> Jump between brackets and html/xml tags
+* `<leader>` + `w` -> Beginning of the word.
+* `<leader>` + `f` + `{char}` -> Find {char} to the right.
+
+* `%` -> Jump between brackets and html/xml tags
+* `<leader>` + `c` + `<space>` -> Toggle comment
+* `F2` -> Toggle Parse On/off
+* `F3` -> Toggle GUndo
+* `F4` -> Toggle Indent Guides
+* `F5` -> Last Tab
+* `F6` -> Next Tab
+* `F8` -> Toggle Tagbar
+* `F9` -> Toggle Nerd-Tree file viewer
+* `F12` -> Toggle Mouse
+
+* `Ctrl` + `p` -> Toggle ctrlp
+* `Ctrl` + `h/j/k/l` -> Moving between spilt windows
