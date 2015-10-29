@@ -27,6 +27,7 @@ Bundle 'tomtom/tlib_vim'
 "-----------------
 Bundle 'edsono/vim-matchit'
 Bundle 'Lokaltog/vim-easymotion'
+Bundle 'yonchu/accelerated-smooth-scroll'
 
 "--------------
 " Fast editing
