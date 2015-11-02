@@ -26,7 +26,7 @@ Bundle 'tomtom/tlib_vim'
 " Fast navigation
 "-----------------
 Bundle 'edsono/vim-matchit'
-Bundle 'Lokaltog/vim-easymotion'
+"Bundle 'Lokaltog/vim-easymotion'
 Bundle 'yonchu/accelerated-smooth-scroll'
 Bundle 'terryma/vim-multiple-cursors'
 
@@ -67,6 +67,7 @@ Bundle '2072/PHP-Indenting-for-VIm'
 "Bundle 'tpope/vim-rails'
 Bundle 'lepture/vim-jinja'
 "Bundle 'digitaltoad/vim-jade'
+Bundle 'airblade/vim-gitgutter'
 
 "------- web frontend ----------
 Bundle 'othree/html5.vim'
