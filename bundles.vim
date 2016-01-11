@@ -21,6 +21,7 @@ Bundle 'honza/vim-snippets'
 "------ snipmate dependencies -------
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
+Bundle 'derekwyatt/vim-scala'
 
 "-----------------
 " Fast navigation
@@ -38,6 +39,7 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'sjl/gundo.vim'
 Bundle 'godlygeek/tabular'
 Bundle 'nathanaelkane/vim-indent-guides'
+Bundle 'iwannaflytomoon/DoxygenToolkit.vim'
 
 "--------------
 " IDE features

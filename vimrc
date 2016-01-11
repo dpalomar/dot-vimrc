@@ -295,3 +295,14 @@ if has("gui_running")
     map <D-9> 9gt
     map <D-0> :tablast<CR>
 endif
+
+if exists('$TMUX')
+    set term=xterm-256color
+endif
+
+" DoxygenToolkit
+let g:DoxygenToolkit_authorName="liunannan"
+let g:DoxygenToolkit_licenseTag="GPL 2.0"
+let g:DoxygenToolkit_briefTag_funcName="yes"
+let g:doxygenToolkit_enhanced_color=1
+"
