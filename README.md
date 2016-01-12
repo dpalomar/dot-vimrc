@@ -204,3 +204,6 @@ Other configurations are also well organized in vimrc.
 
 * `Ctrl` + `p` -> Toggle ctrlp
 * `Ctrl` + `h/j/k/l` -> Moving between spilt windows
+
+* ':Dox' -> generate doxygen comment skeleton
+* ':DoxAuthor' -> generate doxygen author skeleton
