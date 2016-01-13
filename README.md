@@ -157,7 +157,7 @@ Clone in Mac
 
 2. Clone and install this repo:
 
-        git clone git://github.com/iwannaflytomoon/dot-vimrc.git ~/.vim
+        git clone git@github.com:iwannaflytomoon/dot-vimrc.git ~/.vim
         ln -s ~/.vim/vimrc ~/.vimrc
 
 3. Setup `Vundle`:
@@ -204,3 +204,6 @@ Other configurations are also well organized in vimrc.
 
 * `Ctrl` + `p` -> Toggle ctrlp
 * `Ctrl` + `h/j/k/l` -> Moving between spilt windows
+
+* ':Dox' -> generate doxygen comment skeleton
+* ':DoxAuthor' -> generate doxygen author skeleton
