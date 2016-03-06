@@ -81,6 +81,7 @@ Bundle 'nono/jquery.vim'
 " Bundle 'groenewege/vim-less'
 " Bundle 'wavded/vim-stylus'
 " Bundle 'nono/vim-handlebars'
+Bundle 'CSApprox'
 
 "------- markup language -------
 Bundle 'tpope/vim-markdown'
@@ -108,6 +109,7 @@ Bundle 'tpope/vim-vividchalk'
 Bundle 'Lokaltog/vim-distinguished'
 Bundle 'chriskempson/vim-tomorrow-theme'
 Bundle 'fisadev/fisa-vim-colorscheme'
+Bundle 'jaromero/vim-monokai-refined'
 
 
 filetype plugin indent on     " required!

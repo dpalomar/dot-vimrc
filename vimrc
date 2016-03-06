@@ -8,6 +8,8 @@ filetype plugin indent on
 
 " enable syntax hightlight and completion
 syntax on
+set helplang=cn
+set t_Co=256                                                      " Explicitly tell vim that the terminal has 256 colors "
 
 "--------
 " Vim UI
@@ -47,7 +49,6 @@ set nocompatible
 set nofoldenable                                                  " disable folding"
 set confirm                                                       " prompt when existing from an unsaved file
 set backspace=indent,eol,start                                    " More powerful backspacing
-set t_Co=256                                                      " Explicitly tell vim that the terminal has 256 colors "
 set mouse=                                                        " use mouse in all modes
 set report=0                                                      " always report number of lines changed                "
 set nowrap                                                        " dont wrap lines
