@@ -113,5 +113,5 @@ Bundle 'chriskempson/vim-tomorrow-theme'
 Bundle 'fisadev/fisa-vim-colorscheme'
 Bundle 'jaromero/vim-monokai-refined'
 
-
+Plugin 'ryanoasis/vim-devicons'
 filetype plugin indent on     " required!
