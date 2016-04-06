@@ -190,6 +190,8 @@ let g:user_emmet_expandabbr_key='<C-j>'
 " powerline
 "let g:Powerline_symbols = 'fancy'
 
+"Airline
+"let g:airline_powerline_fonts = 1
 " NeoComplCache
 let g:neocomplcache_enable_at_startup=1
 let g:neoComplcache_disableautocomplete=1
