@@ -283,7 +283,8 @@ nnoremap ; :
 if has("gui_running")
     set go=aAce  " remove toolbar
     "set transparency=30
-    set guifont=Monaco:h13
+    "set guifont=Monaco:h13
+	set guifont=Droid\ Sans\ Mono\ for\ Powerline\ Nerd\ Font\ Complete\ 12
     set showtabline=2
     set columns=140
     set lines=40
