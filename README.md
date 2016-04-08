@@ -1,4 +1,4 @@
-Maple's Vim config (modiflied by iwannaflytomoon)
+Maple's Vim config (modified by dpalomar)
 ==================
 
 I use `vundle` to manage my plugins, which makes my `.vim` directory clean and tidy. If you are new to vim, the following two posts
@@ -157,16 +157,16 @@ Clone in Mac
 
 2. Clone and install this repo:
 
-        git clone git@github.com:iwannaflytomoon/dot-vimrc.git ~/.vim
+        git clone https://github.com/dpalomar/dot-vimrc.git ~/.vim
         ln -s ~/.vim/vimrc ~/.vimrc
 
 3. Setup `Vundle`:
 
-        git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+        git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 4. Install bundles. Launch vim(ignore the errors and they will disappear after installing needed plugins)and run:
 
-        :BundleInstall
+        vim +PluginInstall +qall
 
 Thst's it!
 
@@ -176,9 +176,9 @@ For installation on Windows, please refer to this post: http://blog.yoxyue.com/p
 
 All plugins are listed in file `bundles.vim` with detailed comments, just add plugins as you like.
 
-1. `:BundleClean` to clean up unused plugins
-2. `:BundleInstall` to install newly added plugins
-3. `:BundleInstall!` to upgrade all plugins
+1. `:PluginClean` to clean up unused plugins
+2. `:PluginInstall` to install newly added plugins
+3. `:PluginInstall!` to upgrade all plugins
 
 Other configurations are also well organized in vimrc.
 
@@ -187,7 +187,9 @@ Other configurations are also well organized in vimrc.
 * `Tab` -> Expand snippets or jump to the next placeholder of snippet
 * `Ctrl` + `j` -> Call zen-coding expansion on html tags
 
-* `%` -> Jump between brackets and html/xml tags
+
+
+* `<leader>` is mapped to `,` key
 * `<leader>` + `w` -> Beginning of the word.
 * `<leader>` + `f` + `{char}` -> Find {char} to the right.
 
