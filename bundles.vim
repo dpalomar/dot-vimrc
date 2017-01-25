@@ -98,7 +98,7 @@ Plugin 'tpope/vim-markdown'
 Plugin 'fatih/vim-go'
 
 "------- FPs ------
-Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'luochen1990/rainbow'
 " Plugin 'wlangstroth/vim-racket'
 " Plugin 'vim-scripts/VimClojure'
 " Plugin 'rosstimson/scala-vim-support'
