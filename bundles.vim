@@ -27,7 +27,7 @@ Plugin 'derekwyatt/vim-scala'
 "-----------------
 " Fast navigation
 "-----------------
-Plugin 'edsono/vim-matchit'
+
 "Plugin 'Lokaltog/vim-easymotion'
 Plugin 'yonchu/accelerated-smooth-scroll'
 Plugin 'terryma/vim-multiple-cursors'
